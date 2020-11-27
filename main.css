@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	font-size:10px;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1.6rem;
+}
+
+h1{
+	color:black;
+	font-size: 4vw;
+	text-align: center;
+	margin-bottom: 0px;
+	
+}
+@media(max-width:600px){
+	h1{
+		font-size: 3.5vw;
+		line-height: 1.4;
+}
+
+}
+main{
+	background: #eee;
+	padding:  10px 15em;
+
+}
+figure{
+	padding: 0px 10px;
+}
+
+@media(max-width:400px){
+	#main {
+    margin: 0px;
+  }
+		
+
+}
+
+#img-div{
+	text-align: center;
+	border-radius: 5px;
+	background-image: url(https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	background-size: cover;	
+}
+img{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin: auto;
+}
+figcaption{
+	
+	color:white;
+	padding: 7px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+}
+@media(max-width:860px){
+	figcaption{
+		font-size: 1.4rem;
+	}
+}
+#tribute-info{
+	/* background-color: aqua; */
+	width: calc(100%/1.5);
+	position: relative;
+	margin: auto;
+	text-align: justify;
+}
+#tribute-title{
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3.5rem;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.8rem;
+}
+
+.quote{
+	font-size:2rem; 
+	font-style: italic;
+	font-weight: 600;
+}
+
+blockquote{
+	font-style: italic;
+	max-width: 545px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+}
+.more{
+	font-size: 2.5rem;
+	margin: 5px auto;
+}
